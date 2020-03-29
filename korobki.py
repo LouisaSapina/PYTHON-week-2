@@ -1,5 +1,6 @@
 a, b, c = int(input()), int(input()), int(input())
 x, y, z = int(input()), int(input()), int(input())
+
 if a > c:
     a, c = c, a
 if b > c:
@@ -20,3 +21,4 @@ elif a >= x and b >= y and c >= z:
     print('The first box is larger than the second one')
 else:
     print('Boxes are incomparable')
+  
