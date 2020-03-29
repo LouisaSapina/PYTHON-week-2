@@ -1,6 +1,7 @@
-n = int(input())
-i = 1
+a = int(input())
+sum = 0
 
-while i ** 2 <= n:
-    print(i ** 2)
-    i += 1
+for i in range(1, a + 1):
+    sum += i ** 2
+
+print(sum)
