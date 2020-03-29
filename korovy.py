@@ -1,9 +1,8 @@
-x = int(input())
-if x == 1:
-    print('1 korova')
+n = int(input())
+
+if n % 10 == 1 and n != 11:
+    print(n, 'korova')
+elif 2 <= n % 10 <= 4 and n // 10 != 1:
+    print(n, 'korovy')
 else:
-    if x == 2:
-        print('2 korovy')
-    else:
-        if x == 3:
-            print('3 korovy')
+    print(n, 'korov')
