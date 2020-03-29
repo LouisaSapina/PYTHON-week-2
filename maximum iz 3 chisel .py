@@ -1,6 +1,7 @@
 a = int(input())
 b = int(input())
 c = int(input())
+
 if a > c or b > c:
     if a > b:
         print(a)
@@ -8,4 +9,3 @@ if a > c or b > c:
         print(b)
 else:
     print(c)
-    print()
